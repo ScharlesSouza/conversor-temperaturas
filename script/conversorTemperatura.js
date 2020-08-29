@@ -11,7 +11,7 @@ const celsius = document.getElementById('celsius');
 function fromFahrenheit(){
 	var valor =  fahrenheit.value;
 	celsius.value = ((parseFloat(valor)-32)/1.8).toFixed(2);
-	kelvin.value = ((parseFloat(valor)-32)*(5/9)+273.15).toFixed(2);
+	kelvin.value = ((parseFloat(valor)-32)*(5/9)+273).toFixed(2);
 }
 function fromKelvin(){
 	var valor= kelvin.value;
